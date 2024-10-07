@@ -7,10 +7,6 @@
 
 int main()
 {
-    // char again;
-
-    // while (again != 'N')
-    //{
     char question[][300] = {
         "The first calculating tool in 2400 BC",
         "Also called arithmetic and pascal's calculator",
@@ -67,9 +63,28 @@ int main()
         "What was the computer game in the cassette tape in the Apple II",
         "One of the machines designed by Seymour Cray, ad also called the fastest computing machine back in 1976",
         "Features the ability to address up to 4.3 gigabytes of virtual memory, providing hundreds of times the capacity of most minicomputers",
-        "A minicomputer that primarily serces as a game console",
+        "A minicomputer that primarily serves as a game console",
         "A minicomputer with game capabilities but is more of a home computer",
-        "A personal computer that ignited the fast growth of the personal computer market made by IBM"};
+        "A personal computer that ignited the fast growth of the personal computer market made by IBM",
+        "Raw facts including texts, numbers, images, and sounds",
+        "Processed data which is more meaningful to the user",
+        "Physical components of the computer system",
+        "Instructions that run the computer system",
+        "The people involved the in the information in the information technology system whether as user or developer",
+        "This type of computer is used mostly for intensive computations. For example, Weather forecasting, Climate research, and Cryptanalysis. etc",
+        "They are used for performing complex math calculations, mostly used by scientists, have huge memories and tremendous processing speed",
+        "Usually used for bulk processing, like census data processing, transaction processing. These are sensitive to temperature, and not user-friendly",
+        "Also called a microcomputer, they are cheap and user friendly, and can use a wide range of software",
+        "This type of computer has less memory and storage capacity than mainframe computers, End users can directly operate it, and they are not sensitive to external environment",
+        "True or false, Are minicomputers larger than microcomputers",
+        "Computer devices in which continuously variable physical quantities such as electrical potential, fluid pressure, etc. in which they are similar in representation to quantities of the problems",
+        "Computer device that performs calculations and logical operations with quantities represented as digits, usually in the binary number system of \"0\" and \"1\"",
+        "This computer device displays data in continuous forms, like speedometer, oscilloscope",
+        "This computer device transforms all data into binary form and then proceeds to execution",
+        "This computer device is a digital computer that accepts analog signals, converts them to digital, and processes them",
+        "Computers that are dedicated to a specific task, and may be more efficient",
+        "Computers that handle a variety of tasks, and tend to be versatile",
+        "Supercomputer that is said to be super fast that it takes one second to compute a calculation that would take the whole population 4 years"};
     char answers[][50] = {
         "ABACUS",
         "PASCALINE",
@@ -126,9 +141,28 @@ int main()
         "BREAKOUT",
         "CRAY",
         "VAX_780",
-        "ALTAIR_400",
-        "ALTAIR_800",
-        "IBM_PC"};
+        "ATARI_400",
+        "ATARI_800",
+        "IBM_PC",
+        "INPUT",
+        "OUTPUT",
+        "HARDWARE",
+        "SOFTWARE",
+        "PEOPLEWARE",
+        "SUPERCOMPUTER",
+        "SUPERCOMPUTER",
+        "MAINFRAME",
+        "PERSONAL_COMPUTER",
+        "MINICOMPUTER",
+        "FALSE",
+        "ANALOG",
+        "DIGITAL",
+        "ANALOG",
+        "DIGITAL",
+        "HYBRID",
+        "SPECIAL_PURPOSE_COMPUTER",
+        "GENERAL_PURPOSE_COMPUTER",
+        "FRONTIER"};
 
     int numberofquestions = sizeof(question) / sizeof(question[0]);
     char shuffleconfirm;
@@ -198,11 +232,5 @@ int main()
     printf("\n****************************\n");
     getch();
 
-    /*system("cls");
-    printf("Would you like to try again? (y/n)\n");
-    printf(">");
-    scanf("%s", &again);
-    again = toupper(again);
-    system("cls");*/
-    //}
+    return 0;
 };
