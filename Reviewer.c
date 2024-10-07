@@ -200,7 +200,7 @@ int main()
     };
 
     system("cls");
-    printf("Welcome to the First Reviewer for ITC. Identificiation.\nCapital Letter only\n");
+    printf("Welcome to the First Reviewer for ITC. Identificiation.\nCapital Letter only and replace spaces to \"_\"\n");
 
     char choice[50];
     int score = 0;
